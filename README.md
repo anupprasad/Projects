@@ -2,6 +2,7 @@
 Various Projects on which I have worked
 
 IU Bus Route Optimization
+
 1. Calculated average variance in scheduled arrival time of an instance
 of a route.
 2. Found out effect of weather on average load time, passenger count and
