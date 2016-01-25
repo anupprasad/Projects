@@ -1,5 +1,9 @@
-IU Bus Route Optimization
+#IU Bus Route Optimization
 
-1. Calculated average variance in scheduled arrival time of an instance of a route.
+1. Calculated average variance in scheduled arrival time of an instance of a route .
 2. Found out effect of weather on average load time, passenger count and average travel time.
-3. Calculated how much a particular bus stop is used at any given time on any given day of week
+3. Determined average travel time between any two stops at any time of
+the day.
+4. Calculated utilization of bus stops at any given time on any given day of the week.
+5. Maximize the on-route time with sporadic breaks .Optimize for most passengers carried while maintaining a minimum frequency
+
