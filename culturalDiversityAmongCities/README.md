@@ -1,6 +1,6 @@
 #Fall 2015, Social Media Mining, ILS-Z639
 
-![Page 1](https://github.com/anupprasad/Projects/tree/master/culturalDiversityAmongCities/blob/images/Tasks.PNG)
+![Page 1](https://github.com/anupprasad/Projects/blob/master/culturalDiversityAmongCities/images/Tasks.PNG)
 ***
 ![Page 2](https://github.com/anupprasad/Projects/blob/master/culturalDiversityAmongCities/images/LitReview.PNG)
 ***
