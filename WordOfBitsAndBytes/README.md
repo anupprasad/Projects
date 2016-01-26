@@ -7,4 +7,4 @@ Features Of the website
 2. Content of a page is transmitted from back end to front end through Json.
 3. To make things simple Json is stored as flat file in .Json format.
 4. This project can further be extended to persist data in MongoDB
-5. If one wants to change content of website , then change need to be done in Json ,No need to touch HTML.
+5. It provides CMS, if one wants to change content of a page then change need to be done in Json ,No need to touch HTML.
