@@ -1,0 +1,36 @@
+{
+	"Greeting": "Welcome!",
+	"Introduction": "Hi! I am here to participate with you in improving your coding skills and by doing so I will hone my coding skill as well. On this web-site, you will find some information about my experience and my expertise which I have gained during my stint of 3.8 years in IT industry. Using these experiences, I have created a 'Coding Challange' section for those who love coding and likes to scratch their brain to, solve intricate computational problems and implement complex algorithms.I have lots of ideas which can be worked on as projects, some of these ideas have been implemented and I have put them under project section. Few of these projects need further enhancement and I hope we can work together to build a better monetizable product. In short this web page is a portal through which we can communicate, share ideas and build something great!",
+	"NameOfHomePage": "Introduction",
+	"ShowMessage":"True",
+	"FevQuote": [{
+		"Quote": "A dream you dream <b>alone</b> is only a <b>dream</b>. A dream you dream <b>together</b> is a <b>reality</b>.",
+		"By": "John Lennon"
+	}, {
+		"Quote": "Intelligence and capability are not enough, there must be a joy of doing something beautiful!",
+		"By": "Anonymous"
+	}, {
+		"Quote": "If you stand for a <b>reason</b>, be prepared to stand alone like a tree. If you fall on the ground fall as a seed that grows back to <b>Fight Again!</b>",
+		"By": "Anonymous"
+	}],
+	"DisplayPictureLink": "/display/image.jpg",
+	"CommingSoon": {
+		"TopMessage": "Coming Soon",
+		"BottomMessage": "<font size='3'>Look at this space for latest updates</font>",
+		"ContentList": [{
+			"Name": "Emotion detection Tool  ",
+			"ExpectedDate": "25Th Dec 2015"
+		}, {
+			"Name": "Opinion Mining Tool",
+			"ExpectedDate": ""
+		}]
+	},
+	"WebPresence": {
+		"facebook": "http://www.facebook.com/ashoka.anup",
+		"linkedin": "https://www.linkedin.com/",
+		"twitter": "http://twitter.com/ashokaanup",
+		"github": "https://github.com/",
+		"mail": "anprasad@umail.iu.edu",
+		"googleplus": "ashokaanup"
+	}
+}

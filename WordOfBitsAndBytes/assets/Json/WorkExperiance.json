@@ -1,0 +1,91 @@
+{
+"PageName":"Work Experience",
+"CompanyNameList":[
+  {
+   "CompanyName":"Infosys",
+   "CompanyAddress":"",
+   "YearOfEmployment":"2011-2015",
+   "About":"Infosys Ltd is one of the larges software company in India. It Serves more than 1500+ clients all over the world.",
+   "ClientWorkedFor":
+   [ 
+     {
+	  "Name":"Bank Of America",
+	  "ClientCodeName":"bofa",
+	  "ProjectName":"CSR",
+	  "Duration":"",
+	  "Role":"Technology Analysist",
+	  "Responsability":["BOFA responsability 1","BOFA responsability 2","BOFA responsability 3","BOFA responsability 4"],
+	  "ProjectDescription":"describe Project",
+	  "TechnologyUsed":["Java","Soap Webservices","XML"]
+	 },
+	 {
+	  "Name":"Royal Bank Of ScottLand",
+	  "ClientCodeName":"rbs",
+	  "ProjectName":"Rainbow",
+	  "Duration":"",
+	  "Role":"Technology Analysist",
+	  "Responsability":["RBS responsability 1","RBS responsability 2","RBS responsability 3"],
+	  "ProjectDescription":"describe Project",
+	  "TechnologyUsed":["Java","Soap Webservices","XML"]
+	 }
+   ]
+  },
+  {
+   "CompanyName":"UITS",
+   "CompanyAddress":"",
+   "YearOfEmployment":"2011-2015",
+   "About":"UITS wa awarded one of the best place to work for.",
+   "ClientWorkedFor":
+   [ 
+     {
+	  "Name":"Unitersity Technoligy Services",
+	  "ProjectName":"CSR",
+	  "ClientCodeName":"UITS",
+	  "Duration":"",
+	  "Role":"Technology Analysist",
+	  "Responsability":["UITS Responsability"],
+	  "ProjectDescription":"describe Project",
+	  "TechnologyUsed":["Java","Soap Webservices","XML"]
+	 }
+   ]
+  },
+  {
+   "CompanyName":"RPS",
+   "CompanyAddress":"",
+   "YearOfEmployment":"2011-2015",
+   "About":"UITS wa awarded one of the best place to work for.",
+   "ClientWorkedFor":
+   [ 
+     {
+	  "Name":"Unitersity Technoligy Services",
+	  "ProjectName":"CSR",
+	  "ClientCodeName":"RPS",
+	  "Duration":"",
+	  "Role":"Technology Analysist",
+	  "Responsability":["UITS Responsability"],
+	  "ProjectDescription":"describe Project",
+	  "TechnologyUsed":["Java","Soap Webservices","XML"]
+	 }
+   ]
+  },
+   {
+   "CompanyName":"Clustre",
+   "CompanyAddress":"",
+   "YearOfEmployment":"2011-2015",
+   "About":"UITS wa awarded one of the best place to work for.",
+   "ClientWorkedFor":
+   [ 
+     {
+	  "Name":"Cluster",
+	  "ProjectName":"CSR",
+	  "ClientCodeName":"clust",
+	  "Duration":"",
+	  "Role":"Technology Analysist",
+	  "Responsability":["cluster Responsability"],
+	  "ProjectDescription":"describe Project",
+	  "TechnologyUsed":["Java","Soap Webservices","XML"]
+	 }
+   ]
+  }
+]
+}

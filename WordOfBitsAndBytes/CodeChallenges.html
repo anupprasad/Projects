@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="IndexModule">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="shortcut icon" href="assets/img/user.ico" />
+     <title>World Of Bits & Bytes</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="assets/js/angular/controllers.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-sanitize.min.js"></script>
+    <!-- BOOTSTRAP STYLES-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+    <!--CUSTOM BASIC STYLES-->
+    <link href="assets/css/basic.css" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+     <div class='Coding Challenges' id="wrapper"  ng-controller='IndexController' name="cchallenge">
+         <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                 <a class="navbar-brand" href="{{initialize.SideContents.Introduction}}.html" ng-bind-html="initialize.CompanyName">{{initialize.CompanyName}}</a>
+            </div>
+
+            <div class="header-right">
+
+                <a href="index.html#message" class="btn btn-info" title="New Message"><i class="fa fa-envelope-o fa-2x"></i></a>
+                <a href="#cchallenge" class="btn btn-primary" title="Coding Challenge"><i class="fa fa-CodeChallenges fa-2x"></i></a>
+                <a href="ResearchWork.html#rwork" class="btn btn-danger" title="Research Work"><i class="fa fa-ResearchWork fa-2x"></i></a>
+
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+    <nav class="navbar-default navbar-side" role="navigation">
+            <!--  Side Bar Start -->
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="assets/img/user.png" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                               {{initialize.Name}}
+                                  <span ng-if="initialize.PhoneNumber!=''">
+                                <br>
+                                {{initialize.PhoneNumber}}
+                                </span>
+                            <br />
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                    <li ng-repeat='(key,value) in initialize.SideContents' ng-if="value!=''">
+                        <a ng-href="{{value}}.html" ng-class="key==active?'active-menu':'menu'"><i class="fa fa-{{value}} ">&nbsp</i>&nbsp{{key}}</a></li>
+                    </ul>
+
+            </div>
+            <!-- Side Bar End -->
+
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">{{codec.PageName}}</h1>
+                       
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                 <center><input type="search"  class="search" ng-model="query" placeholder="Search with Challenge Name Or Key Word present in Problem statement" autofocus /></center>
+                <hr/>
+                 <div class="row">
+                    <div class="col-md-12">
+                    
+                     
+                        <div class="panel-body">
+                            <div class="row">
+            <div class="col-md-4 " ng-repeat="pro in codec.CodeList | filter:query" ng-if="pro.Title!=''">
+                      <div class="alert alert-{{$index%5}} text-center">
+                          <h4 ng-if="pro.Title!=''"> {{pro.Title}}</h4> 
+                          <hr style="border-color:#e5f2ff;"/>
+                            <!--<i class="fa fa-warning fa-4x"></i>-->
+                          <span ng-if="pro.ProblemDescription!=''" ><b>Problem Statement: &nbsp</b><br><span ng-bind-html="pro.ProblemDescription">{{pro.Description}}</span><hr style="border-color:#e5f2ff;"/></span>
+                          <Span ng-if="pro.SampleInput!=''"><b>Sample Input: &nbsp</b><span ng-bind-html="pro.SampleInput">{{pro.SampleInput}}</span><hr style="border-color:#e5f2ff;"/></Span>
+                          <Span ng-if="pro.SampleOutput!=''"><b>Sample OutPut: &nbsp</b><span ng-bind-html="pro.SampleOutput">{{pro.SampleOutput}}</span><hr style="border-color:#e5f2ff;"/></Span>
+                          
+                         <Span ng-if="pro.Tip!=''"><b>Tip: &nbsp</b><span ng-bind-html="pro.Tip">{{pro.Tip}}</span><hr style="border-color:#e5f2ff;"/></Span>
+                          
+                          <Span ng-if="pro.Domain!=''"><b>Domain:&nbsp</b>{{pro.Domain}}&nbsp</Span><hr ng-if="pro.Domain!=''" style="border-color:#e5f2ff;"/>
+                          
+                          <Span ng-if="pro.GitLink!=''"><a href="{{pro.GitLink}}" class="btn btn-info " target="_blank"><i class="fa fa-github"></i>GitHub</a> </Span>
+                           
+                        </div>
+                    </div>
+          
+                            </div>
+                            </div>
+                          
+                        </div>
+                     </div>
+              
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+    <div id="footer-sec">
+        &copy; 2016 World Of Bits & Bytes | Design By: Anup Prasad in association with<a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+    <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+
+
+</body>
+</html>

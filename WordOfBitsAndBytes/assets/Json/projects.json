@@ -1,0 +1,70 @@
+{
+	"PageName": "Projects",
+	"ProjectList": [{
+		"ProjectName": "IU Bus",
+		"TechnologyUsed": ["MongoDB", "Angular"],
+		"Description": "This project delt with route optimization of IU bus service. We found effect of weather on load time as well as travel time. We developed a model which pridicted travel time between any two stops at any given time of day.",
+		"Duration": "4 months",
+		"ProjectReportLink": "assets/projectreport/Bus.pdf",
+		"ClientName": "",
+		"GitLink": "https://github.iu.edu/anprasad/Os-Fall-2015",
+		"Status": "In Progress"
+	}, {
+		"ProjectName": "Yelp Data Challange",
+		"TechnologyUsed": ["Ajax", "jQuery"],
+		"Description": "",
+		"Duration": "4 months",
+		"ProjectReportLink": "",
+		"ClientName": "",
+		"GitLink": "",
+		"Status": "Completed"
+	}, {
+		"ProjectName": "Imotion Parser",
+		"TechnologyUsed": ["Java", "SQL"],
+		"Description": "",
+		"Duration": "4 months",
+		"ProjectReportLink": "",
+		"ClientName": "",
+		"GitLink": "https://github.iu.edu/anprasad/Os-Fall-2015",
+		"Status": "Completed"
+	},
+	{
+		"ProjectName": "CSR",
+		"TechnologyUsed": ["J2EE", "XML","Rest web Services","SOAP Web service"],
+		"Description": "",
+		"Duration": "4 months",
+		"ProjectReportLink": "",
+		"ClientName": "Bank Of America",
+		"GitLink": "https://github.iu.edu/anprasad/Os-Fall-2015",
+		"Status": "Completed"
+	},
+	{
+		"ProjectName": "Opinion Mining",
+		"TechnologyUsed": [],
+		"Description": "",
+		"Duration": "4 months",
+		"ProjectReportLink": "",
+		"ClientName": "",
+		"GitLink": "",
+		"Status": "Completed"
+	},
+	{
+		"ProjectName": "Web Presence",
+		"TechnologyUsed": [],
+		"Description": "",
+		"Duration": "4 months",
+		"ProjectReportLink": "",
+		"ClientName": "",
+		"GitLink": "",
+		"Status": "Completed"
+	},{
+		"ProjectName": "Machine Learning",
+		"TechnologyUsed": ["Ada Boost", "Angular"],
+		"Description": "This project delt with route optimization of IU bus service. We found effect of weather on load time as well as travel time. We developed a model which pridicted travel time between any two stops at any given time of day.",
+		"Duration": "4 months",
+		"ProjectReportLink": "assets/projectreport/Bus.pdf",
+		"ClientName": "",
+		"GitLink": "https://github.iu.edu/anprasad/Os-Fall-2015",
+		"Status": "In Progress"
+	}]
+}

@@ -1,0 +1,18 @@
+{
+ "Name":"Anup Prasad",
+ "PhoneNumber":"",
+ "CompanyName":"",
+ "SideContents":
+  {
+  "Introduction":"index",
+  "Education":"Education",
+  "Resume":"Resume",
+  "Expertise":"Expertise",
+  "Work Experience":"WorkExperience",
+  "Projects":"Projects",
+  "Research Work":"ResearchWork",
+  "Coding Challenges":"CodeChallenges",
+  "Certification":"Certification"
+  
+  }  
+}

@@ -1,0 +1,32 @@
+{
+	"PageName": "Research Work",
+	"ResearchList": [
+	{
+			"Topic": "Emotion mining in tweeter",
+			"PaperPublishedInJournal": "AIEEE",
+			"YearOfPublication": "2015",
+			"Link": "Link TO pdf",
+			"Description": "In this research paper we have applied three machine laearning algorithms viz. K-Means, Naive Byes and SVM to detect emotions in a tweet.",
+			"AreaOfResearch": "NLP",
+			"Status": "In Progress"
+		},
+
+		{
+			"Topic": "Sentiment analysis using emotions",
+			"PaperPublishedInJournal": "",
+			"YearOfPublication": "",
+			"Link": "Link TO pdf",
+			"Description": "<br>1 2 3<br> 4 5 6<br> 5 7 8",
+			"AreaOfResearch": "NLP",
+			"Status": "In Progress"
+		}, {
+			"Topic": "Opinion Mining",
+			"PaperPublishedInJournal": "AMC",
+			"YearOfPublication": "2011",
+			"Link": "Link TO pdf",
+			"Description": "",
+			"AreaOfResearch": "NLP",
+			"Status": "Completed"
+		}
+	]
+}

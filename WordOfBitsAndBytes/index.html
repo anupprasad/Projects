@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="IndexModule">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="assets/img/user.ico" />
+    <title>World Of Bits & Bytes</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  <script src="assets/js/angular/controllers.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-sanitize.min.js"></script>
+    <!-- BOOTSTRAP STYLES-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <!-- FONTAWESOME STYLES-->
+    <link href="assets/css/font-awesome.css" rel="stylesheet" />
+       <!--CUSTOM BASIC STYLES-->
+    <link href="assets/css/basic.css" rel="stylesheet" />
+    <!--CUSTOM MAIN STYLES-->
+    <link href="assets/css/custom.css" rel="stylesheet" />
+    <!-- GOOGLE FONTS-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
+</head>
+<body>
+    <div class='Introduction' id="wrapper"  ng-controller='IndexController'>
+        <nav class="navbar navbar-default navbar-cls-top " role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <!--<a class="navbar-brand" href="index.html" ng-bind-html="profile.CompanyName">{{profile.CompanyName}}</a>-->
+                <a class="navbar-brand" href="{{initialize.SideContents.Introduction}}.html" ng-bind-html="initialize.CompanyName">{{initialize.CompanyName}}</a>
+            </div>
+
+            <div class="header-right">
+
+                <a href="#message" class="btn btn-info" title="New Message"><i class="fa fa-envelope-o fa-2x"></i></a>
+                <a href="CodeChallenges.html#cchallenge" class="btn btn-primary" title="Coding Challenge"><i class="fa fa-CodeChallenges fa-2x"></i></a>
+                <a href="ResearchWork.html#rwork" class="btn btn-danger" title="Research Work"><i class="fa fa-ResearchWork fa-2x"></i></a>
+
+            </div>
+        </nav>
+        <!-- /. NAV TOP  -->
+        <nav class="navbar-default navbar-side" role="navigation">
+            <!--  Side Bar Start -->
+              <!--  Side Bar Start -->
+            <div class="sidebar-collapse">
+                <ul class="nav" id="main-menu">
+                    <li>
+                        <div class="user-img-div">
+                            <img src="assets/img/user.png" class="img-thumbnail" />
+
+                            <div class="inner-text">
+                               {{initialize.Name}}
+                                <span ng-if="initialize.PhoneNumber!=''">
+                                <br>
+                                {{initialize.PhoneNumber}}
+                                </span>
+                            <br />
+                            </div>
+                        </div>
+
+                    </li>
+
+
+                    <li ng-repeat='(key,value) in initialize.SideContents' ng-if="value!=''">
+                        <a ng-href="{{value}}.html" ng-class="key==active?'active-menu':'menu'"><i class="fa fa-{{value}} "></i>{{key}}</a></li>
+                    </ul>
+
+            </div>
+            <!-- Side Bar End -->
+            <!-- Side Bar End -->
+
+        </nav>
+        <!-- /. NAV SIDE  -->
+        <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">{{profile.Greeting}}</h1>
+                       
+                    </div>
+                </div>
+              
+
+                <div class="row">
+                    <div class="col-md-8">
+                 
+                        <hr />
+                        
+                
+                    
+                    </div>
+                   
+                 
+                </div>
+                <!-- /. ROW  -->
+
+
+                <div class="row">
+
+                    <div class="col-md-8">
+                        <div class="list-group">
+                            <!--<a href="#" class="list-group-item active">-->
+                            <div class="list-group-item active">
+                                <h4 class="list-group-item-heading">{{profile.NameOfHomePage}}</h4>
+                                <p class="list-group-item-text" style="line-height: 23px;" ng-bind-html="profile.Introduction">
+                                  {{profile.Introduction}}
+                                </p>
+                            </div>
+                            <!--</a>-->
+                        </div>
+                        
+                        <!-- 16:9 aspect ratio to include video -->
+                       <!-- <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="//www.youtube.com/embed/zpOULjyy-n8?rel=0"></iframe>
+                        </div>-->
+                              <div class="row">
+                            <div class="col-md-12">
+
+                                <div id="reviews" class="carousel slide" data-ride="carousel">
+
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+
+                                            <div class="col-md-10 col-md-offset-1" >
+                                            
+                                                <h4 ng-bind-html="profile.FevQuote[0].Quote"><i class="fa fa-quote-left"></i>{{profile.FevQuote[0].Quote}} <i class="fa fa-quote-right"></i></h4>
+                                                <!--<div class="user-img pull-right">
+                                                    <img src="assets/img/user.gif" alt="" class="img-u image-responsive" />
+                                                </div>-->
+                                                <h5 class="pull-right"><strong class="c-black">By : {{profile.FevQuote[0].By}}</strong></h5>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-md-10 col-md-offset-1">
+
+                                                <h4 ng-bind-html="profile.FevQuote[1].Quote"><i class="fa fa-quote-left"></i>{{profile.FevQuote[1].Quote}}  <i class="fa fa-quote-right"></i></h4>
+                                                <!--<div class="user-img pull-right">
+                                                    <img src="assets/img/user.png" alt="" class="img-u image-responsive" />
+                                                </div>-->
+                                                <h5 class="pull-right"><strong class="c-black">By : {{profile.FevQuote[1].By}}</strong></h5>
+                                            </div>
+
+                                        </div>
+                                        <div class="item">
+                                            <div class="col-md-10 col-md-offset-1">
+
+                                                <h4 ng-bind-html="profile.FevQuote[2].Quote"><i class="fa fa-quote-left"></i>{{profile.FevQuote[2].Quote}} <i class="fa fa-quote-right"></i></h4>
+                                                <!--<div class="user-img pull-right">
+                                                    <img src="assets/img/user.gif" alt="" class="img-u image-responsive" />
+                                                </div>-->
+                                                <h5 class="pull-right"><strong class="c-black">By : {{profile.FevQuote[2].By}}</strong></h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--INDICATORS-->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#reviews" data-slide-to="0" class="active"></li>
+                                        <li data-target="#reviews" data-slide-to="1"></li>
+                                        <li data-target="#reviews" data-slide-to="2"></li>
+                                    </ol>
+                                    <!--PREVIUS-NEXT BUTTONS-->
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="panel panel-info">
+                            <div class="panel-heading">
+                                <i class="fa fa-group fa-fw"></i> &nbsp Connect With Me
+                            </div>
+
+                            <div class="panel-body">
+                                <div class="list-group" ng-repeat="(sitename,link) in profile.WebPresence" ng-if="link!=''">
+
+                                    <a href="{{link}}" class="list-group-item" style="text-transform:capitalize;">
+                                        <i class="fa fa-{{sitename}} fa-fw"></i>&nbsp{{sitename}}
+                                   
+                                    </a>
+                                  
+                                </div>
+                               
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <!--/.Row-->
+                
+                <hr />
+          
+                <div class="row" style="padding-bottom: 100px; `">
+                    <a name="message"></a>
+                    <div class="col-md-6" ng-if="profile.ShowMessage=='True'">
+                        <div id="comments-sec">
+                            
+                            <h4><strong>Send A Message </strong></h4>
+                            <hr />
+
+
+                            <div class="form-group  ">
+                                <label>Subject</label>
+                                <input type="text" class="form-control" required="required" placeholder="Enter Subject Of Message" />
+                            </div>
+                            <div class="form-group ">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="8"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="btn btn-success">Send Message</button>
+                            </div>
+                        </div>
+
+                    </div>
+                      <div class="col-md-6">
+                        <div class="panel panel-back noti-box" ng-if="profile.CommingSoon!=''">
+                            <span class="icon-box bg-color-black">
+                                <i class="fa fa-magic"></i>
+                            </span>
+                            <div class="text-box">
+                                <!-- style=" text-align: center ;"-->
+                                <p class="main-text" ng-if="profile.CommingSoon.TopMessage!=''" ng-bind-html="profile.CommingSoon.TopMessage" >{{profile.CommingSoon.TopMessage}} </p>
+                                <br>
+                                <hr />
+                                <ul>
+                                    <li ng-repeat="message in profile.CommingSoon.ContentList"><span ng-bind-html="message.Name">{{message.Name}}&nbsp;</span><span ng-if="message.ExpectedDate!=''"><b>&nbsp;&nbsp;&nbsp;&nbsp;ON:&nbsp;</b>{{message.ExpectedDate}}</span></li>
+                                    
+
+                                </ul>
+
+                                
+                                <hr />
+                                <p class="main-text" style=" text-align: float ;" ng-if="profile.CommingSoon.BottomMessage!=''" ng-bind-html="profile.CommingSoon.BottomMessage">{{profile.CommingSoon.BottomMessage}} </p>
+                            </div>
+                        </div>
+                    </div>
+                  
+                </div>
+                <!--/.ROW-->
+
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+    </div>
+    <!-- /. WRAPPER  -->
+
+    <div id="footer-sec">
+        &copy; 2016 World Of Bits & Bytes | Design By: Anup Prasad in association with<a href="http://www.binarytheme.com/" target="_blank">BinaryTheme.com</a>
+    </div>
+    <!-- /. FOOTER  -->
+    <!-- SCRIPTS -AT THE BOTOM TO REDUCE THE LOAD TIME-->
+    <!-- JQUERY SCRIPTS -->
+    <!--<script src="assets/js/jquery-1.10.2.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!-- METISMENU SCRIPTS -->
+    <script src="assets/js/jquery.metisMenu.js"></script>
+       <!-- CUSTOM SCRIPTS -->
+    <script src="assets/js/custom.js"></script>
+    
+
+
+</body>
+</html>

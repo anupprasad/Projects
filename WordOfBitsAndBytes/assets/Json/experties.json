@@ -1,0 +1,122 @@
+{
+	"PageName": "Expertise",
+	"Languagegs": [{
+		"Technology": "Core Java",
+		"YearOfExperiance": "3 years",
+		"RelatedProjects": [{"Name":"Bus Data Mining","Link":""}, {"Name":"Kuch V","Link":""}]
+	}, {
+		"Technology": "J2EE",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "EJB 3.0",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Yelp Data Mining","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "PL/SQL",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "HTML5",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "XML",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "JavaScript",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "Python",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "C",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "jQuery",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "Ajax",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	}],
+	"Frame Works": [{
+		"Technology": "JSF",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	}, {
+		"Technology": "Spring",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	},
+	{
+		"Technology": "AngularJS",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	}],
+	"OperatingSystems": [{
+		"Technology": "Windows",
+		"YearOfExperiance": "3",
+		"RelatedProjects": []
+	}, {
+		"Technology": "Linux",
+		"YearOfExperiance": "3",
+		"RelatedProjects": []
+	}, {
+		"Technology": "Xinu",
+		"YearOfExperiance": "6 Months",
+		"RelatedProjects": []
+	}],
+
+	"Servers": [{
+		"Technology": "Weblogic 12.c",
+		"YearOfExperiance": "3",
+		"RelatedProjects": []
+	}, {
+		"Technology": "Tom Cat Apache",
+		"YearOfExperiance": "3",
+		"RelatedProjects": []
+	}],
+	"DataBase": [{
+		"Technology": "MongoDB",
+		"Type": "NoSql",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	}, {
+		"Technology": "Sql",
+		"Type": "Relational",
+		"YearOfExperiance": "3",
+		"RelatedProjects": [{"Name":"Kuch V","Link":"githubLink"}, {"Name":"Kuch V","Link":"githubLink"}]
+	}],
+	"Tools": [
+
+		{
+			"Technology": "Perforce",
+			"YearOfExperiance": "3",
+		"RelatedProjects": []
+		}, {
+			"Technology": "Maven",
+			"YearOfExperiance": "3",
+		"RelatedProjects": []
+		}, {
+			"Technology": "Eclipse",
+			"YearOfExperiance": "3",
+		"RelatedProjects": []
+		}
+	]
+
+}

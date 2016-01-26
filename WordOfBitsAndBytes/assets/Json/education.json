@@ -1,0 +1,81 @@
+{
+	"PageName": "Education & Certifications",
+	"QuoteOnEducation":{"Quote":"Education is not learning of facts, but the training of the mind to think.","By":"A. Einstein"},
+	"EduDetailsList": [
+	
+		{
+			"Thesis": [{
+				"Title": "",
+				"Description": "",
+				"Link": ""
+			}, {
+				"Title": "",
+				"Description": "",
+				"Link": ""
+			}],
+			"DegreeName": "Doctorate In Computer Science",
+			"DoctorateArea": "Description",
+			"InstitutionName": "Indiana University, Bloomington",
+			"AddressOfInstitution": "Bloomington, Indiana",
+			"Duration": "2015-2017",
+			"GPA": "3.8/4",
+			"TypeOfEducation":"",
+			"Minors":[],
+			"MajorSubjects":[],
+			"LogoAddress":"",
+			"CertificateLinks":[]
+
+		},
+		 {
+			"DegreeName": "Masters In Computer Science",
+			"InstitutionName": "Indiana University, Bloomington",
+			"AddressOfInstitution": "Bloomington, Indiana",
+			"Duration": "2015-2017",
+			"GPA": "3.8/4",
+			"TypeOfEducation":"",
+			"Minors":["ding dong"],
+			"MajorSubjects": ["Data Mining ", "Machine LEarning"],
+			"CertificateLinks": [{"link":"assets/certificates/angularjs.pdf","Name":"AngularJS"},{"link":"assets/certificates/angularjs.pdf","Name":"HTML5"}],
+			"LogoAddress":"assets/img/soic_logo.jpg"
+		},
+		 {
+			"DegreeName": "Under Graduation in Information Technology",
+			"InstitutionName": "Indiana University, Bloomington",
+			"AddressOfInstitution": "Bloomington, Indiana",
+			"Duration": "2015-2017",
+			"GPA": "79%",
+			"TypeOfEducation":"Full Time",
+			"MajorSubjects": ["Data Mining ", "Machine LEarning","Artificial Intelligence ","Natural Language Processing"],
+			"Minors":[],
+			"CertificateLinks": [],
+			"LogoAddress":"assets/img/vvce_logo.jpg"
+		}
+	],
+	"EducationMiscellaneous": [{
+			"Nmae": "Name of education",
+			"Institute": "Name",
+			"InstituteAddress": "Address",
+			"TypeOfEducation": "",
+			"Grades": "",
+			"Duration": "From To/Years/months",
+			"CertificateLinkes": ["Link1", "Link2"]
+		}, {
+			"Nmae": "Name of education",
+			"Institute": "Name",
+			"InstituteAddress": "Address",
+			"TypeOfEducation": "",
+			"Grades": "",
+			"Duration": "From To/Years/months",
+			"CertificateLinkes": ["Link1", "Link2"]
+		}, {
+			"Nmae": "Name of education",
+			"Institute": "Name",
+			"InstituteAddress": "Address",
+			"TypeOfEducation": "",
+			"Grades": "",
+			"Duration": "From To/Years/months",
+			"CertificateLinkes": ["Link1", "Link2"]
+		}
+
+	]
+}

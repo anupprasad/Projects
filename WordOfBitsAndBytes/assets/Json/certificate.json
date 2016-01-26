@@ -1,0 +1,54 @@
+{
+"PageName": "Certificates",
+"CertificateList":[
+   { 
+     "CertificationName":"OCJP",
+	 "Year":"2015",
+	 "Grade":"A+",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":""
+   },
+   { 
+     "CertificationName":"Micro soft certified HTML 5 Developer",
+	 "Year":"2015",
+	 "Grade":"",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":""
+   },
+   { 
+     "CertificationName":"OCJP",
+	 "Year":"2015",
+	 "Grade":"",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":"Core java certification"
+   },
+   { 
+     "CertificationName":"OCJP",
+	 "Year":"2015",
+	 "Grade":"",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":""
+   },
+   { 
+     "CertificationName":"Micro soft certified HTML 5 Developer",
+	 "Year":"2015",
+	 "Grade":"",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":""
+   },
+   { 
+     "CertificationName":"OCJP",
+	 "Year":"2015",
+	 "Grade":"",
+	 "Link":"",
+	 "LogoLink":"",
+	 "Description":""
+   }
+  
+]
+}
